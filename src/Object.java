@@ -33,7 +33,7 @@ public class Object {
         return ("Name: " + name + " Role:" + role + " Age is:" + age + " location: " + location);
     }
 }
-
+///////
 class Details {
     public static void main(String[] args) {
         Object maltese = new Object();

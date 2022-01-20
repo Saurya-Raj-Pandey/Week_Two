@@ -41,7 +41,7 @@ class Details {
         maltese.role = "Intern";
         maltese.age = 22;
         maltese.location = "Budanilkantha,kathmandu,Nepal";
-        System.out.println("The Desired output is : ");
+
         System.out.println(maltese.getInfo());
     }
 }

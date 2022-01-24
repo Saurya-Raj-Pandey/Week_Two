@@ -218,6 +218,7 @@ abstract class NewClass{
 
     }
     abstract public boolean greet();
+
 }
 
 class NewClass1 extends  NewClass{
@@ -229,7 +230,7 @@ class NewClass1 extends  NewClass{
 
 }
 
-abstract class Newclass2 extends NewClass1{
+abstract class Newclass2 extends NewClass{
    public void th(){
        System.out.println("i Am a good class");
    }
@@ -237,14 +238,9 @@ abstract class Newclass2 extends NewClass1{
  class TheClassToBeCalled{
     public static void main(String[] args) {
         NewClass1 a = new NewClass1();
-        NewClass b = new NewClass() {
-            @Override
-            public boolean greet() {
-                System.out.println("hi i'm saurya ");
-                return false ;
-            }
-        };
-        System.out.println(b.greet());
+        System.out.println(a.greet());
+
+
     }
 }
 

@@ -214,7 +214,7 @@ abstract class NewClass{
         System.out.println("This is called an constructor ");
     }
     public  void SayHello(){
-        System.out.println("hello bichhh");
+        System.out.println("hello this is a SayHello");
 
     }
     abstract public boolean greet();
